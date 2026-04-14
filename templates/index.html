@@ -1,0 +1,119 @@
+{% extends 'base.html' %}
+{% block title %}s.pdf — Herramientas PDF online{% endblock %}
+
+{% block content %}
+<section class="hero">
+  <div class="hero-inner">
+    <p class="hero-eyebrow">Herramientas PDF online</p>
+    <h1 class="hero-title">Todo lo que<br><em>necesitas</em> para<br>tus PDFs.</h1>
+    <p class="hero-sub">Gratis. Sin límites. Sin registro. Sin complicaciones.</p>
+  </div>
+  <div class="hero-deco">PDF</div>
+</section>
+
+<section class="tools-section">
+  <div class="tools-grid">
+
+    <a href="/tool/merge" class="tool-card">
+      <span class="tool-icon">⊕</span>
+      <div class="tool-info">
+        <h3>Unir PDF</h3>
+        <p>Combina múltiples PDFs en uno solo</p>
+      </div>
+      <span class="tool-arrow">→</span>
+    </a>
+
+    <a href="/tool/split" class="tool-card">
+      <span class="tool-icon">⊗</span>
+      <div class="tool-info">
+        <h3>Dividir PDF</h3>
+        <p>Separa cada página en un archivo</p>
+      </div>
+      <span class="tool-arrow">→</span>
+    </a>
+
+    <a href="/tool/compress" class="tool-card featured">
+      <span class="tool-icon">◎</span>
+      <div class="tool-info">
+        <h3>Comprimir PDF</h3>
+        <p>Reduce el tamaño sin perder calidad</p>
+      </div>
+      <span class="tool-arrow">→</span>
+    </a>
+
+    <a href="/tool/pdf-to-word" class="tool-card">
+      <span class="tool-icon">→</span>
+      <div class="tool-info">
+        <h3>PDF a Word</h3>
+        <p>Convierte a documento editable</p>
+      </div>
+      <span class="tool-arrow">→</span>
+    </a>
+
+    <a href="/tool/pdf-to-jpg" class="tool-card">
+      <span class="tool-icon">◉</span>
+      <div class="tool-info">
+        <h3>PDF a JPG</h3>
+        <p>Extrae páginas como imágenes</p>
+      </div>
+      <span class="tool-arrow">→</span>
+    </a>
+
+    <a href="/tool/word-to-pdf" class="tool-card">
+      <span class="tool-icon">←</span>
+      <div class="tool-info">
+        <h3>Word a PDF</h3>
+        <p>Convierte documentos Word a PDF</p>
+      </div>
+      <span class="tool-arrow">→</span>
+    </a>
+
+    <a href="/tool/jpg-to-pdf" class="tool-card">
+      <span class="tool-icon">◈</span>
+      <div class="tool-info">
+        <h3>JPG a PDF</h3>
+        <p>Une imágenes en un solo PDF</p>
+      </div>
+      <span class="tool-arrow">→</span>
+    </a>
+
+    <a href="/tool/protect" class="tool-card">
+      <span class="tool-icon">⊘</span>
+      <div class="tool-info">
+        <h3>Proteger PDF</h3>
+        <p>Añade contraseña a tu PDF</p>
+      </div>
+      <span class="tool-arrow">→</span>
+    </a>
+
+    <a href="/tool/rotate" class="tool-card">
+      <span class="tool-icon">↻</span>
+      <div class="tool-info">
+        <h3>Rotar PDF</h3>
+        <p>Rota las páginas de tu PDF</p>
+      </div>
+      <span class="tool-arrow">→</span>
+    </a>
+
+  </div>
+</section>
+
+<section class="features">
+  <div class="feature">
+    <span class="feature-num">100%</span>
+    <p>Gratuito</p>
+  </div>
+  <div class="feature">
+    <span class="feature-num">∞</span>
+    <p>Sin límites</p>
+  </div>
+  <div class="feature">
+    <span class="feature-num">0</span>
+    <p>Registro</p>
+  </div>
+  <div class="feature">
+    <span class="feature-num">⚡</span>
+    <p>Rápido</p>
+  </div>
+</section>
+{% endblock %}
